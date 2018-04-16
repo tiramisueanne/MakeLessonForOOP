@@ -1,0 +1,22 @@
+explain terminology: target, prerequisites, recipe
+
+compile all files in the current directory
+
+make dependencies with those files
+
+make the compiler a variable
+make the flags a variable 
+
+make the targets a variable with substitution references
+
+use a wildcard 
+
+use a wildcard function in the setting of a variable
+
+use a subdirectory
+
+writing comments
+
+splitting a line
+
+Make is Turing Complete, because you can make lambdas //gross, lol

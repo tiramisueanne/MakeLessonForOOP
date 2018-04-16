@@ -1,0 +1,8 @@
+SOURCE = sm0l.cc sm0ller.cc sm0llest.cc
+CC = g++ 
+
+# prerequisites actually nice
+all: $(SOURCE)
+	$(CC) $(SOURCE) saying_words.cc -o say_things 
+
+

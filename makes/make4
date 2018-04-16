@@ -1,0 +1,6 @@
+
+# prerequisites actually nice
+all: sm0l.cc sm0ller.cc sm0llest.cc
+	g++ sm0l.cc sm0ller.cc sm0llest.cc saying_words.cc -o say_things 
+
+

@@ -1,0 +1,6 @@
+
+# Why would we even bother? This seems to work fine!
+all: 
+	g++ sm0l.cc sm0ller.cc sm0llest.cc saying_words.cc -o say_things 
+
+

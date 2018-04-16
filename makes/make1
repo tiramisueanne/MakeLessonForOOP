@@ -1,0 +1,5 @@
+target/goal: prerequisites
+    <- that is a tab
+    recipes;
+    recipe2;
+    recipepe;

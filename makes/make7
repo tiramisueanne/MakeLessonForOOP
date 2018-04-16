@@ -1,0 +1,21 @@
+SOURCE = sm0l.cc sm0ller.cc sm0llest.cc saying_words.cc
+OBJECTS = $(SOURCE:.cc=.o)
+CC = g++ 
+TARGET = say_things
+
+# prerequisites actually nice
+all: $(OBJECTS)
+	$(CC) $(OBJECTS) -o $(TARGET)
+
+sm0l.o: sm0l.cc 
+	$(CC) -c sm0l.cc 
+
+sm0ller.o: sm0ller.cc 
+	$(CC) -c sm0ller.cc 
+
+sm0llest.o: sm0llest.cc 
+	$(CC) -c sm0llest.cc 
+
+clean:
+	rm -f *.o $(TARGET)
+

@@ -1,0 +1,2 @@
+all:
+	g++ sm0l.h sm0ller.h sm0llest.h sm0l.cc sm0ller.cc sm0llest.cc saying_words.cc -o say_things 

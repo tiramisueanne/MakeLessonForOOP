@@ -1,6 +1,6 @@
-#include "sm0llest.h"
-#include "sm0ller.h"
-#include "sm0l.h"
+extern void say_sm0l();
+extern void say_sm0ller();
+extern void say_sm0llest();
 
 int main() {
     say_sm0l();
